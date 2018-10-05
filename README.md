@@ -1,4 +1,4 @@
-# IngestRedisStreams
+# Redis Streams Demo
 
 This is a simple application that demonstrates how Redis Streams work. The producer side of the application gathers new Twitter messages and writes them to a Redis Stream data structure. The consumer reads the data, deciphers the JSON data of the message, selects Twitter handles that have more than 10,000 followers as influencers, and maintains a catalog of influencers in Redis.
 
