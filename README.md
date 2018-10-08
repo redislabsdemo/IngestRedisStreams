@@ -13,8 +13,8 @@ This is a simple application that demonstrates how Redis Streams work. The produ
 4. PubNub: Download PubNub Java SDK and libraries into your classpath. For more information visit, https://www.pubnub.com/docs/java-se-java/pubnub-java-sdk.
 
 5. Update the following Java programs:
-   a. LettuceConnection.java: Change the Redis connection URI to connect to your Redis server
-   b. InitializeConsumerGroup.java: If you don't want the default names for STREAM_ID and GROUP_ID, change them.
+   a. LettuceConnection.java: Change the Redis connection URI to connect to your Redis server;
+   b. InitializeConsumerGroup.java: If you don't want the default names for STREAM_ID and GROUP_ID, change them;
    c. TwitterIngestStream.java: Create a PubNub key for yourself and change it.
    
 ## Compiling
